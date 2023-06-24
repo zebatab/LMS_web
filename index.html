@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet">
+     
+    </head>
+    <body style="background-color: rgb(245, 245, 245);">
+        <header>
+            <nav><a href="#Books">Books</a>
+                <a href="#Register">Register</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Logout</a>
+                <h3 class="liblogo">Library System</h3>
+            </nav>
+           
+        </header>
+        <main>
+            <section id="Books" class="section ">
+                <div>
+                <h4 class="div-first">Books</h4>
+                <table class="div-first">
+                    <thead>
+                  <tr>
+                    <th>Book ID</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Genre</th>
+                    <th>Availability</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td ><span class="title"> Jane Eyre</span><table class="undertr">
+                      <tr  ><td>Publication Date: 2000</td></tr>
+                      <tr><td>Page Count:250</td></tr>
+                      <tr><td>ISBN :123-4567890123</td></tr>
+                    </table>
+                    </td>
+                    
+                    <td>Famous Five</td>
+                    <td>Thriller</td>
+                    <td>Available</td>
+                  </tr>
+                  <tr><td>2</td>
+                    <td ><span class="title">Homegoing</span><table class="undertr">
+                        
+                        <tr><td>Publication Date: 2000</td></tr>
+                        <tr><td>Page Count:250</td></tr>
+                        <tr><td>ISBN :123-4567890123</td></tr>
+                      </table>
+                      </td>
+                    <td>Sidney Sheldon</td>
+                    <td>Histrorical fication</td>
+                    <td>Available</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td ><span class="title">Pride and Prejudice</span><table class="undertr">
+                        <tr><td>Publication Date: 2000</td></tr>
+                        <tr><td>Page Count:250</td></tr>
+                        <tr><td>ISBN :123-4567890123</td></tr>
+                      </table>
+                      </td>
+                    <td>Chan</td>
+                    <td>Fantasy</td>
+                    <td>Available</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td ><span class="title">Sherlock Holms</span><table class="undertr">
+                        <tr><td>Publication Date: 2000</td></tr>
+                        <tr><td>Page Count:250</td></tr>
+                        <tr><td>ISBN :123-4567890123</td></tr>
+                      </table>
+                      </td>
+                    <td> S. KING</td>
+                    <td>Horror</td>
+                    <td>Available</td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td ><span class="title">Encyclopedia</span><table class="undertr">
+                        <tr><td>Publication Date: 2000</td></tr>
+                        <tr><td>Page Count:250</td></tr>
+                        <tr><td>ISBN :123-4567890123</td></tr>
+                      </table>
+                      </td>
+                    <td>Celeste Ng</td>
+                    <td>Novel</td>
+                    <td>Available</td>
+                  </tr>
+                </tbody>
+                </table>
+                </div>
+            </section>
+            <section id="Register" class="section ">
+                <div class="regi">
+                  
+                <h3 class="regiterheading" >Register</h3>
+                <form>
+                <label for="name">Name:</label><br>
+                 <input type="text" name="name" id="name" required placeholder="Enter first name"><br>
+                 <label for="lname">Last Name:</label><br>
+                 <input type="text" name="lname" id="lname" required placeholder="enter last name"><br>
+      
+                 <label for="DOB">Date Of Birth:</label><br>
+                 <input type="date" name="dob" id="DOB" required><br>
+                 <label for="age">Age:</label><br>
+                 <input type="number" name="age" id="age"min ="5" max="100" required><br>
+                 <label for="email">Email:</label><br>
+                 <input type="email" name="email" id="email" required placeholder="@gmail.com"><br>
+                 <label for="password">Password:</label><br>
+                 <input type="password" name="name" id="password" required><br>
+                 <label for="comp">Confirm Password:</label><br>
+                 <input type="password" name="cpassword" id="comp" required><br><br>
+                 <input type="submit" value="Register">
+                </form>
+                </div>
+            </section>
+        </main>
+    </body>
+       
+
+</html>

@@ -1,0 +1,93 @@
+header{
+    background-color: black;
+    width: 100%;
+    height:30px;
+    text-align: end;
+    padding-right: 9px; 
+    padding-top: 6px;   
+    position:sticky;
+    top: 0px; 
+    left:0px;
+    
+ }
+   
+  a{
+    color: white;
+    margin: 8px;
+    /* padding-bottom:10px ; */
+    text-decoration:none;
+    
+    
+  }
+  a:hover{
+    color:blue;
+  }
+  .liblogo{
+    position:absolute;
+    top:-10px;
+    left: 13px;
+    color: rgba(255, 255, 255, 0.92);
+    font-size: 16px;
+    font-weight: 500;
+    
+  }
+  .section{
+    background-attachment:rgb(191, 191, 191);
+
+  }
+
+ 
+  table ,tr, td,th {
+    border: solid 1px black;
+    border-collapse:collapse
+    
+  }
+  .title{
+    color:blueviolet;
+  }
+  div{
+     background-color: white;
+     width: 710px;
+     height: 540px;
+     /* width: 500px; */
+     /* position:relative;
+     left: 0 ,auto; */
+     margin: auto;
+     box-shadow: 1px 1px 6px 0 gray ;
+
+  }
+  .div-first{
+    /* margin: 10px; */
+    position: relative;
+    left: 14px;
+  }
+   input[type]{
+    width: 480px;
+   
+   }
+  .regi{
+      height: 410px;
+  }
+  .regiterheading, label,input{
+    position: relative;
+    left: 10px;
+  }
+  input[type="text"], input[type="email"]{
+    background-color:rgba(94, 227, 147, 0.345);
+  }
+  .undertr{
+    width: 300px;
+    position: relative;
+    margin: 3px;
+  }
+  label::after{
+    content: "*";
+    color: red;
+  }
+  input::placeholder{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  input[value="Register"]{
+    color:white;
+    background-color:black;
+  }
